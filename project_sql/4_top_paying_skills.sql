@@ -31,4 +31,4 @@ Key Insights:
     Cloud and Big Data Technologies: Skills such as GCP, Snowflake, Hadoop, and Spark are highly sought after, reflecting the industry's move towards cloud and big data solutions.
 
     Emerging and Traditional Skills: Tools like TensorFlow, Airflow, and Databricks show the importance of modern data pipeline management and AI, while traditional skills like Linux and Shell remain valuable
-/*
+*/

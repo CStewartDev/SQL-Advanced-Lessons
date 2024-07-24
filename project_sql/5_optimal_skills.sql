@@ -5,6 +5,7 @@ Answer: What are the most optimal skills to learn (aka it's in high demand and a
 -Why? targets skills that offer job security(high demand) and financial benefits(high slaaries), offering strategic insights for career development in data analytics
 */
 
+/*
 WITH demanded_skills AS (
     SELECT 
         skills_dim.skill_id,
@@ -51,7 +52,7 @@ ORDER BY
     avg_salary DESC,
     demand_count_skill DESC
 LIMIT 25
-
+*/
 -- rewriting more consise
 
 SELECT 
@@ -74,6 +75,6 @@ GROUP BY skills_dim.skill_id
 HAVING 
     COUNT(skills_job_dim.job_id) >10
 ORDER BY
-    avg_salary DESC,
-    demand_count DESC
+    demand_count DESC,
+    avg_salary DESC
 LIMIT 25;

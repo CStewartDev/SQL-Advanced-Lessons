@@ -22,8 +22,9 @@ LEFT JOIN company_dim AS companies ON job_postings_fact.company_id = companies.c
 WHERE
     (job_location = 'Anywhere' OR
     job_location = 'Tampa, FL' OR
-    job_location = 'Orlando, FL') AND
-    salary_year_avg IS NOT NULL AND
-    job_title_short = 'Data Analyst'
+    job_location = 'Orlando, FL')
+    AND salary_year_avg IS NOT NULL
+    AND salary_year_avg < 250000 --Removes some outliers in the data
+    AND job_title_short = 'Data Analyst'
 ORDER BY salary_year_avg DESC
 LIMIT 10
