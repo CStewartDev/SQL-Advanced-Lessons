@@ -1,12 +1,12 @@
 
  # Introduction
  Data Job Market 📊💼 <br>
-The data job market is booming 🚀, driven by the rapid growth of data-driven decision-making across industries 🌐. Focusing on Data Analyst roles that are remote 🏡 or located in central Florida 🌴, this project explores top-paying jobs 💰, in-demand skills 🔧, and where high demand meets salary in data analytics 📈!
+The data job market is booming 🚀, driven by the rapid growth of data-driven decision-making across industries 🌐. This project focuses on Data Analyst roles that are remote 🏡 or located in central Florida 🌴, exploring top-paying jobs 💰, in-demand skills 🔧, and where high demand meets salary in data analytics 📈!"
 
 SQL Queries? Check them out here: [project_sql folder](project_sql)
 
  # Background
-Wanting to learn SQL skills, I decided to give this highly rated [course](https://www.youtube.com/watch?v=7mz73uXD9DA) a try. The course is led by Luke Barousse, who thoughfully and carefully leads you through the course. He shows his workflow. When making mistakes, instead of cutting to the final product, he goes step by step on how to debug your code. 
+Wanting to learn SQL skills, I decided to give this highly rated [course](https://www.youtube.com/watch?v=7mz73uXD9DA) a try. The course is led by Luke Barousse, who thoughfully and carefully leads you through the course. He demonstrates his workflow and, when making mistakes, goes step-by-step on how to debug your code rather than skipping to the final product.
 
 For more info,including the data for this analysis, check out [his course](https://www.lukebarousse.com/sql). It has Free and Paid options.
 
@@ -21,13 +21,13 @@ For more info,including the data for this analysis, check out [his course](https
  # Tools I Used
 For my deep dive into the data analyst job market, I used several key tools:
 
-- **SQL**: This tools strength of querying databases quickly enabled me to analyze this data set
+- **SQL**: This tool's strength in querying databases quickly enabled me to analyze this data set
 - **PostgresSQL**: The chosen database management system, ideal for handling this dataset.
-- **VS Code**: The swiss army knife of code editors, it can do just about anything with a plugin here or there
+- **VS Code**: The Swiss Army knife of code editors; it can do just about anything with a plugin here or there.
 - **Git and GitHub**: Versioning control and sharing what I learned, ensuring collaboration and project tracking
 
  # The Analysis
- Each query for this project is aimed at investingating specific aspects of the data analyst job market.
+ Each query for this project aims at investigating specific aspects of the data analyst job market.
  Here's how I approached each question:
 
  ### 1. What are the top-paying jobs for my role?
@@ -223,7 +223,7 @@ LIMIT 25;
 
 
  # What I learned
-Starting this course, I had only done random queries, but did not know why I was doing what I was doing. This course is chock full of good practices, helpful hints and engaging exercises. I now know how to use  fundemental and advanced SQL queries to create some pretty satisfying results.
+Starting this course, I had only done random queries and did not fully understand the purpose behind them. This course is chock full of good practices, helpful hints and engaging exercises. I now know how to use  fundemental and advanced SQL queries to create some pretty satisfying results.
 
 Aggregation functions were really neat to see the data shape up into ways I would think before would only be done on a Pivot table for example. 
 
@@ -235,7 +235,7 @@ Aggregation functions were really neat to see the data shape up into ways I woul
  1. **Top-paying Data Analyst Jobs**: The highest paying jobs that allow remote work can be in the 200k range!
  2. **Skills for Top-Paying jobs** The top skills for top paying jobs are SQL, Python, Tableau and Excel.
  3. **Most In-Demand Skills** The highest demanded skills for Remote job postings are SQL, Excel, Python, Tableau and Power BI.
- 4. **Skills with Higher Salaries** The highest paying skills for remote jobs are Kafka, pytorch, perl, and and tensorflow. THis speaks to specific expertise offering a higher paying position.
+ 4. **Skills with Higher Salaries** The highest paying skills for remote jobs are Kafka, PyTorch, Perl, and TensorFlow. THis speaks to specific expertise offering a higher paying position. PyTorch and TensorFlow are specifically Geared toward AI, which should be kept in mind for the future. AI assitance with Data tasks seems inevitable. 
  5. **Optimal Skills for Job Market Value** SQL is the most in demand skill, and offers a high average salary across all job postings. Notably, python, offers a slightly higher average pay, which tend to indicate that would be a good path to go down. Lastly, visualization tools have a combined gravity close to equal that of SQL itself, indication that data visualization is a key skill to know in this industry.
  ### Closing thoughts
 
